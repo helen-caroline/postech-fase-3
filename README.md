@@ -1,6 +1,4 @@
-# postech-fase-4
-
-Tech Challenge - Fase 03
+# Tech Challenge - Fase 03
  
 Repositórios Públicos
 1. Repositório Lambda:
