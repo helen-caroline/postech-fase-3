@@ -1,0 +1,14 @@
+service: auth-service
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+  region: us-east-1
+
+functions:
+  authenticate:
+    handler: handler.authenticate
+    events:
+      - http:
+          path: authenticate
+          method: post
