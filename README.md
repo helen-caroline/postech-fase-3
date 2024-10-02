@@ -1,17 +1,19 @@
 # Tech Challenge - Fase 03
- 
-Repositórios Públicos
-1. Repositório Lambda:
 
-2. Repositório Infraestrutura Kubernetes:
-   
-3. Repositório Banco de Dados:
-   
+## Repositórios Públicos
 
-4. Repositório Aplicação:
-   - [Link para o repositório Aplicação](https://github.com/seu-usuario/repo-application)
+1. **Repositório Lambda**:
+
+2. **Repositório Infraestrutura Kubernetes**:
+
+3. **Repositório Banco de Dados**:
+
+4. **Repositório Aplicação**:
+
+## Vídeo Explicativo
 
 ## Documentação da Infraestrutura
+
 ### Banco de Dados
 
 Escolhemos o PostgreSQL no AWS RDS devido à sua robustez, escalabilidade e suporte a transações complexas. Abaixo está a configuração do banco de dados utilizando Terraform:
@@ -32,10 +34,3 @@ resource "aws_db_instance" "default" {
   parameter_group_name = "default.postgres12"
   skip_final_snapshot  = true
 }
-```
-
-Infraestrutura
-Utilizamos Kubernetes para orquestração de contêineres, garantindo alta disponibilidade e escalabilidade da aplicação. A infraestrutura foi configurada utilizando Terraform.
-
-Autenticação
-AWS Cognito foi escolhido por sua integração fácil com outros serviços AWS e suporte a autenticação segura.
